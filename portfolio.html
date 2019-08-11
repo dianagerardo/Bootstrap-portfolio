@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+</div>
+</body>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Bootstrap Demo</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Header area-->
+        <div class="row header">
+
+            <!--Starts navigation fixed-top-->
+
+            <div class="navigation col-9">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navigation-text">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+                    <div class="collapse navbar-collapse justify-content: center;" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav float-left">
+                            <h2 class="name">Diana Gerardo</h2>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="bootstrap-portfolio.html">About <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--Ends navigation fixed-top-->
+
+        <!--Starts main content-->
+
+        <div class="row main-content">
+            <div class="card" style="max-width: 100%;">
+                <div class="card-header">
+                    <h1 id="about-me">Portfolio</h1>
+                </div>
+                <div class="card-body">
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card text-center">
+                                <img src="Sedona.jpg" class="card-img-top" alt="..." style="height:200px width:200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Floating Over Sedona</h5>
+                                    <p class="card-text">
+                                        This painting was inspired by lazy naps near the Edge of the World, Sedona,
+                                        while hot air balloons floated over us in the distance.
+                                    </p>
+                                    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card text-center">
+                                <img src="S2000.JPG" class="card-img-top" alt="..." style="height:200px width:200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Midnight Starlit Drive </h5>
+                                    <p class="card-text">
+                                        This painting was inspired by midnight drives through the desert of Tucson, AZ,
+                                        within the Saguaros with the stars shining bright.
+                                    </p>
+
+                                    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card text-center">
+                                <img src="Paradise_Trinidad.jpg" class="card-img-top" alt="..."
+                                    style="height:200px width:200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">One More Day in Paradise</h5>
+                                    <p class="card-text">
+                                        This painting was inspired by hammock naps in Trinidad and Tobago, with the
+                                        sounds of waves lulling me to sleep.
+                                    </p>
+                                    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ends main content-->
+
+                <!--Starts footer content-->
+                <div>
+                    <nav class="navbar fixed-bottom footer">
+                        <p class="text-center"> Copyright©</p>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
