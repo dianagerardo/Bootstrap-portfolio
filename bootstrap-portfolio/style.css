@@ -21,6 +21,14 @@ body {
     height: auto;
 }
 
+/* clearfix */
+.header-container:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+
 .navigation {
     margin: 70px;
 }
@@ -33,7 +41,7 @@ p {
     display:inline;
 }
 .name {
-    background-color:  rgb(66, 184, 184);
+    background-color: rgb(66, 184, 184);
     color:white;
     padding:10px;
 
@@ -50,8 +58,15 @@ p {
 
 .main-content {
     margin-bottom:100px;
+    margin-right:50px;
+    margin-left:50px;
 }
 
 #about-me {
     color:rgb(66, 184, 184);
+}
+
+@media screen and (min-width: 480px) {
+.container {
+    margin:20px;
 }
