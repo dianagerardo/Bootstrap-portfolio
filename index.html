@@ -19,8 +19,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="stylesheet/style.css">
-        <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -29,33 +29,16 @@
 
     <div class="container">
         <!--Header area-->
-        <div class="row header">
+        <div class="header-container">
 
             <!--Starts navigation fixed-top-->
 
-            <div class="navigation col-9">
+            <div class="navigation">
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
 
-                    </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav float-right">
+                        <ul class="navbar-nav form-inline">
                             <h2 class="name">Diana Gerardo</h2>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">About <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-
                         </ul>
                     </div>
                 </nav>
@@ -65,32 +48,113 @@
 
         <!--Starts main content-->
 
-        <div class="row main-content">
-            <div class="card" style="max-width: 100%;">
-                <div class="card-header">
-                    <h1 id="about-me">About me</h1>
-                </div>
-                <div class="card-body">
-                    <div class="col-9">
-                        <img src="Gerardo.One More Day In Paradise.jpg" alt="Placeholder" class="img-thumbnail"
-                            style="width:200px">
-                    </div>
+        <div class="row main-content bd-content">
+            <div class="card col-4" id="secondary">
 
-                    <p>
-                        I am a medical research technician at the University of Arizona. I work on the immune system and
-                        how to create tools to target pathogens. I use big data processing platforms and pipelines to
-                        identify pathogenic bacteria in the digestive system. This is where I became interested in
-                        computer science and programming.
-                        This should be a summary of the projects I have worked on. Currently I have very little web
-                        development and programming experience. I have some self-taught experience using python and R to
-                        analyze data.
-                        This area would normally be links to some of my projects or my CV.
-                        I have three dogs. Molly is a beagle-heeler mix, Rosie is a Boston terrier, and Rocky is a Sheba
-                        Inu mix. My favorite hobbies include hiking, painting, and playing with my dogs.
-                    </p>
+                <div class="card-body">
+
+                    <ul class="section-nav">
+                        <p>Summary of Projects:</p>
+
+                        <img src="watercolor-crystals.jpg" class="card-img-top" alt="crystal">
+                        <li>
+                            <p>Crystal Game:</p>
+                        </li>
+
+                        <p>Explore the magic of crystal collecting! Click on the crystals to match the number on screen!
+                        </p>
+                        <p class="form-inline"></p>GitHub code:<a href="https://github.com/dianagerardo/unit-4-game">
+                            https://github.com/dianagerardo/unit-4-game</a></p>
+                        <a href="https://dianagerardo.github.io/unit-4-game/." class="btn btn-outline-info"
+                            target="_blank"> Check out the game!</a>
+
+
+
+                        <img src="trivia.jpeg" class="card-img-top" alt="trivia">
+                        <li>
+                            <p>Trivia night!:</p>
+                        </li>
+
+                        <p>Take a trivia quiz and test your animal knowledge! Just answer the questions!</p>
+
+                        <p class="form-inline">GitHub code:<a href="https://github.com/dianagerardo/TriviaGame">
+                                https://github.com/dianagerardo/TriviaGame</a></p>
+                        <a href="https://dianagerardo.github.io/TriviaGame/" class="btn btn-outline-info">Test your
+                            knowledge</a>
+                        <img src="elephant.jpeg" class="card-img-top" alt="gifs">
+                        <li>
+                            <p>GifTastic!:</p>
+                        </li>
+
+                        <p>Lighten your mood with animal gifs! Search for any animal, and enjoy the fun!</p>
+
+                        <p class="form-inline">GitHub code:<a href="https://github.com/dianagerardo/GifTastic">
+                                https://github.com/dianagerardo/GifTastic</a></p>
+                        <a href="https://dianagerardo.github.io/GifTastic/" class="btn btn-outline-info">Check out the
+                            gifs!</a>
+                        <img src="tacos.jpg" class="card-img-top" alt="food">
+                        <li>
+                            <p>Food Finder:</p>
+                        </li>
+
+                        <p>Tired of looking for recipes? Look no further, we're here to help!</p>
+
+                        <p class="form-inline">GitHub code:<a href="https://github.com/Dylanbaker321/foodFinder">
+                                https://github.com/Dylanbaker321/foodFinder</a></p>
+                        <a href=https://dylanbaker321.github.io/foodFinder/ class="btn btn-outline-info">Check out our
+                            recipes!</a>
+
+
+                    </ul>
+
                 </div>
             </div>
+
+            <div class="card col-8">
+                <div class="card-header">
+                    <div class="navbar-sec">
+                        <h2 id="nav-name">Diana Gerardo</h2>
+                        <a href="index.html">About Me | </a>
+                        <a href="portfolio.html">Portfolio | </a>
+                       
+                    </div>
+                    <h1 id="about-me">About me</h1>
+
+                </div>
+                <div class="card-body">
+                        <h1 class="navbar-sec">About Me</h1>
+                    <img src="Gerardo.One More Day In Paradise.jpg" alt="Placeholder" class="img-thumbnail"
+                        style="width:200px">
+
+                    <p class="form-inline"> I am a medical research technician at the University of Arizona. I work on
+                        the immune system and how to create tools to target pathogens. </p>
+                    <p class="form-inline">I use big data processing platforms and pipelines to
+                        identify pathogenic bacteria in the digestive system. </p>
+                    <p class="form-inline">In the past I have worked with Python and R. Currently, I have experience in
+                        HTML, CSS, and Javascript.</p>
+
+                    <p class="form-inline">Contact information:</p>
+                    <li class="toc-entry toc-h2">GitHub:<a href="https://github.com/dianagerardo">
+                            https://github.com/dianagerardo</a></li>
+                    <li class="toc-entry toc-h2">LinkedIn:<a
+                            href="https://www.linkedin.com/in/diana-gerardo-672b52134/">https://www.linkedin.com/in/diana-gerardo-672b52134/</a>
+                    </li>
+                    <li class="toc-entry toc-h2">CV:<a href="#content-types"> </a>
+                    <li>
+                        <p> Email: dianagerardo@email.arizona.edu</p>
+                    </li>
+                    <li>
+                        <p>Tel: (760)540-4085</p>
+                    </li>
+
+                </div>
+
+
+
+            </div>
+
         </div>
+
         <!--Ends main content-->
 
         <!--Starts footer content-->
